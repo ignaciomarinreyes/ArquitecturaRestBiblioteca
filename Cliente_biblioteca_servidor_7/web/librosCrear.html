@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Anadir libro</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            .title
+            {
+                margin-left: -0.8em;
+                color: #000080;
+                font-size: 1.7em;
+                background-color: #99ccff;
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+            } 
+            table
+            {
+                border: 1px solid black;
+            }
+            th
+            {
+                border-bottom: 1px solid black;
+                background-color: #dbe6e5;
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+        <p class="title">Añadir libro</p>
+    </center>
+    <p>Haz click <a href="index.html">aquí</a> para una completa lista de operaciones.</p>
+    <h1>Añadir cliente</h1>Añade un libro pasando por parámetro el dni, nombre, correo, telefono.
+    <h2>Alta libro</h2>
+    <form action="ClienteCrearLet" method="POST">
+        <table>
+            <tr>
+                <th>Parámetro</th><th>Valor</th>
+            </tr>
+            <tr>
+                <td>libID</td>
+                <td><input type="text" size="50" name="libID" required></td>
+            </tr>
+            <tr>
+                <td>Nombre</td>
+                <td><input type="text" size="50" name="nombre" required></td>
+            </tr>
+            <tr>
+                <td>Año</td>
+                <td><input type="text" size="50" name="ano" required></td>
+            </tr>
+            <tr>
+                <td>Autor</td>
+                <td><input type="text" size="50" name="autor" required></td>
+            </tr>
+            <tr>
+                <td>Editorial</td>
+                <td><input type="text" size="50" name="editorial" required></td>
+            </tr>
+            <tr>
+                <td>Cantidad</td>
+                <td><input type="text" size="50" name="cantidad" required></td>
+            </tr>
+            <tr>
+                <td></td><td align="right"><input type="submit" value="Añadir"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+

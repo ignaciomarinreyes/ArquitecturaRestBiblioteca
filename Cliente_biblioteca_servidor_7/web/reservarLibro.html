@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Reserva</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            .title
+            {
+                margin-left: -0.8em;
+                color: #000080;
+                font-size: 1.7em;
+                background-color: #99ccff;
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+        <p class="title">Reserva</p>
+    </center>
+    <p>
+        <span>Este servicio reserva un libro introduciendo el libID y el nombre y contraseña del cliente que quiere hacer la reserva</span>
+    </p>
+        <form action="AlquilarCrearLet">
+            <h1>Cliente</h1>
+            <input type="text" name="user" value="123456" required/><br>
+            <input type="password" name="pass" value="1234" required/><br>
+            <h1>LibID</h1>
+            <input type="text" name="book"  required/><br>
+            <input type="submit"/>
+        </form>
+    </body>
+</html>

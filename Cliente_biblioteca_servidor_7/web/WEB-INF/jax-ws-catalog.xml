@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog" prefer="system">
+    <system systemId="file:/C:/Users/Ignacio/AppData/Roaming/NetBeans/8.2rc/config/WebServices/parser/catalog/ws.docencia.ces.siani.es/a06/Parser/parser.wsdl" uri="wsdl/parser.wsdl"/>
+    <system systemId="http://ws.docencia.ces.siani.es/a06/Parser/parser?xsd=1" uri="wsdl/ws.docencia.ces.siani.es/a06/Parser/parser.xsd_1.xsd"/>
+    <system systemId="http://ws.docencia.ces.siani.es/a10/Web_service_soap_json/Web_service_soap_json?WSDL" uri="wsdl/ws.docencia.ces.siani.es/a10/Web_service_soap_json/Web_service_soap_json.wsdl"/>
+    <system systemId="http://ws.docencia.ces.siani.es/a10/Web_service_soap_json/Web_service_soap_json?xsd=1" uri="wsdl/ws.docencia.ces.siani.es/a10/Web_service_soap_json/Web_service_soap_json.xsd_1.xsd"/>
+</catalog>

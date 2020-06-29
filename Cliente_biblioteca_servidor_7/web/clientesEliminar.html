@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Eliminar cliente</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style type="text/css">
+            .title
+            {
+                margin-left: -0.8em;
+                color: #000080;
+                font-size: 1.7em;
+                background-color: #99ccff;
+                padding-top: 0.3em;
+                padding-bottom: 0.3em;
+            } 
+            table
+            {
+                border: 1px solid black;
+            }
+            th
+            {
+                border-bottom: 1px solid black;
+                background-color: #dbe6e5;
+            }
+        </style>
+    </head>
+    <body>
+    <center>
+        <p class="title">Eliminar cliente</p>
+    </center>
+    <p>Haz click <a href="index.html">aquí</a> para una completa lista de operaciones.</p>
+    <h1>Eliminar cliente</h1>Elimina un cliente pasando por parámetro el dni
+    <h2>Test</h2>
+    <form action="ClienteEliminarLet" method="POST">
+        <table>
+            <tr>
+                <th>Parámetro</th><th>Valor</th>
+            </tr>
+            <tr>
+                <td>DNI</td>
+                <td><input type="text" size="50" name="parametro"></td>
+            </tr>
+            <tr>
+                <td></td><td align="right"><input type="submit" value="Eliminar"></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
+
